@@ -15,9 +15,7 @@ import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by svelupula on 8/8/2015.
- */
+
 public class PageDriver implements ElementsContainer {
 
     private final Configuration _configuration;

@@ -3,9 +3,7 @@ package com.wbl.base;
 import com.wbl.utils.PageDriver;
 import org.apache.log4j.Logger;
 
-/**
- * Created by svelupula on 8/14/2015.
- */
+
 public abstract class BasePage {
 
     public Logger _logger;

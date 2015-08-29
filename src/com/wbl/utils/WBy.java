@@ -10,9 +10,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 
-/**
- * Created by svelupula on 8/8/2015.
- */
+
 public class WBy {
 
     private static HashMap<String, String> _locators;

@@ -5,9 +5,7 @@ import org.apache.log4j.Logger;
 import java.io.FileReader;
 import java.util.Properties;
 
-/**
- * Created by svelupula on 8/8/2015.
- */
+
 public class Configuration {
 
     public Browsers Browser;

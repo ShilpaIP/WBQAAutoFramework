@@ -5,9 +5,7 @@ import com.wbl.utils.PageDriver;
 
 import java.util.Set;
 
-/**
- * Created by svelupula on 8/14/2015.
- */
+
 public abstract class PortalPage extends BasePage {
 
     public PortalPage(PageDriver driver) {

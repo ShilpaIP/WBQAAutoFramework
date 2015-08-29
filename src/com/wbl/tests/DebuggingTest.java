@@ -2,9 +2,7 @@ package com.wbl.tests;
 
 import com.wbl.utils.WBy;
 
-/**
- * Created by svelupula on 8/14/2015.
- */
+
 public class DebuggingTest {
 
     public static void main(String[] args) {

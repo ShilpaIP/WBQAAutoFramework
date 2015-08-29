@@ -5,9 +5,7 @@ import java.util.*;
 import com.wbl.utils.HtmlElement;
 import com.wbl.utils.PageDriver;
 
-/**
- * Created by svelupula on 8/14/2015.
- */
+
 public class HomePage extends PortalPage {
 
     public HomePage(PageDriver driver) {

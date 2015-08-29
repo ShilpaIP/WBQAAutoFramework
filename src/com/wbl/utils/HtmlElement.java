@@ -7,9 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 import java.util.ArrayList;
 import java.util.Collection;
 
-/**
- * Created by svelupula on 8/8/2015.
- */
+
 public class HtmlElement implements ElementsContainer {
 
     private final PageDriver _browser;

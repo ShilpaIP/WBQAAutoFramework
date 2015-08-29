@@ -12,9 +12,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-/**
- * Created by svelupula on 8/14/2015.
- */
+
 public class HomePageTest extends BaseWebTest {
 
     private HomePage _hp;

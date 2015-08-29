@@ -4,9 +4,7 @@ import com.wbl.utils.PageDriver;
 import com.wbl.utils.WBy;
 import org.testng.annotations.*;
 
-/**
- * Created by svelupula on 8/14/2015.
- */
+
 public abstract class BaseWebTest extends BaseTest {
 
     public PageDriver driver;
