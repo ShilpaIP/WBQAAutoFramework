@@ -7,4 +7,18 @@
   "email.link": "p.email a"
   "home.slider.title": "span.main"
   "home.slider.description": "span.secondary"
+  "home.enrollnow.link": "a[href='register.php']"
+  "register.heading": "h1.heading-title"
+  "register.username": "#registerform input[name='username']"
+  "register.password": "#registerform input[name='password']"
+  "register.fullname": "#registerform input[name='fullname']"
+  "register.phone": "#registerform input[name='phone']"
+  "register.address": "#registerform input[name='address']"
+  "register.city": "#registerform input[name='city']"
+  "register.zip": "#registerform input[name='zip']"
+  "register.country": "select"
+  "register.messgae": "#message"
+  "register.register": "button[type='submit']"
+  "register.valid.msg": "h4.text-danger"
+  
 }
