@@ -48,6 +48,14 @@ public class HomePage extends PortalPage {
     	return sliderDescriptions;
     }
     
+    public RegistrationPage enrollNow(){
+    	
+    	driver.findElement("home.enrollnow.link").click();
+    	
+    	return new RegistrationPage(driver);
+    	
+    }
+    
    
     
   
