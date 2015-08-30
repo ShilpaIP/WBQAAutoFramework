@@ -2,6 +2,7 @@
     <test name="Smoke">
         <classes>
             <class name="com.wbl.tests.ui.HomePageTest"/>
+            <class name="com.wbl.tests.ui.RegistrationPageTest"/>
         </classes>
     </test>
 </suite>
