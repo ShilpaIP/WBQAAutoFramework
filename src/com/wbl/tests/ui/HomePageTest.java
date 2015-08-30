@@ -4,9 +4,11 @@ import java.util.*;
 
 import com.wbl.base.BaseWebTest;
 import com.wbl.pages.HomePage;
+import com.wbl.pages.RegistrationPage;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -16,6 +18,7 @@ import static org.testng.Assert.assertEquals;
 public class HomePageTest extends BaseWebTest {
 
     private HomePage _hp;
+   
 
     @BeforeClass
     public void beforeClass() {
@@ -48,6 +51,22 @@ public class HomePageTest extends BaseWebTest {
     	List<String> descriptions = _hp.getSliderDescriptions();
     	Assert.assertTrue(descriptions.get(3).contains("DevOps and Continuous Integration"));
     }
+    
+    @Test
+    public void testEnrollNow(){
+    	
+    	Assert.assertSame(_hp.enrollNow(), new RegistrationPage(driver));
+    }
+    
+
+   
+    @AfterClass(alwaysRun=true)
+    public Class<RegistrationPageTest> afterClass(){
+    	
+    	return RegistrationPageTest.class;
+    }
+    
+    
 
 
 
